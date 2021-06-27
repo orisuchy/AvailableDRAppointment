@@ -19,6 +19,7 @@ chrome_options.add_argument("--disable-gpu")
 url = "https://serguide.maccabi4u.co.il/heb/doctors/doctorssearchresults/doctorsinfopage/?ItemKeyIndex" \
       "=07A84FD6B9055C8460995CA9E9A5B4A6C44AEEBF93BCBA6C560940F038DE0184&RequestId=25e9a718-c267-8b05-584e" \
       "-daa37be8c0de&Source=SearchPageResults "
+# TODO: Put the email you would like to notify here
 email_address = "YourEmail@gmail.com"
 tryNum = 1
 
