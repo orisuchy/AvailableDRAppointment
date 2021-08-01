@@ -63,5 +63,5 @@ while True:
             print("email sent")
         except Exception as e:
             print("Didn't send mail\n", e)
-
+        driver.quit()
     time.sleep(300)
