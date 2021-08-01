@@ -46,7 +46,7 @@ while True:
         currDate = availableDate
         currDate_date = datetime.strptime(currDate, '%d/%m/%Y')
         print(currDate)
-        driver.quit()
+    driver.quit()
 
     if availableDate_date < currDate_date:
         currDate = availableDate
@@ -63,5 +63,5 @@ while True:
             print("email sent")
         except Exception as e:
             print("Didn't send mail\n", e)
-        driver.quit()
+#         driver.quit()
     time.sleep(300)
